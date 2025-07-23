@@ -1,3 +1,3 @@
-do
-msgbox "Your System Ran Into An Issue! Please Restart."
-loop
+Do
+    MsgBox "Your system ran into an issue! Press OK to resolve.", vbCritical + vbSystemModal, "System Error"
+Loop
